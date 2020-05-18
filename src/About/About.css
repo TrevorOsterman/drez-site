@@ -1,6 +1,9 @@
 .about-section {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 75vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 75vw;
+  padding: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
