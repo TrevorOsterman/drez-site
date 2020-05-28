@@ -14,9 +14,12 @@
 }
 
 .hero-header {
-  font-size: 10vw;
+  font-size: 11vw;
+  letter-spacing: -5px;
+  text-shadow: 5px -5px #da667b, 10px -10px #342a21;
 }
 
 .hero-byline {
   float: right;
+  text-shadow: 1px -1px #da667b, 2px -2px #342a21;
 }

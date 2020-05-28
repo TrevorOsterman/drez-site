@@ -8,7 +8,12 @@ body {
 
 a {
   text-decoration: none;
+  transition: color 0.5s ease;
   color: inherit;
+}
+
+a:hover {
+  color: #da667b;
 }
 
 .App {
