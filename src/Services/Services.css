@@ -3,4 +3,9 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  max-width: 800px;
+}
+
+#calendar {
+  padding-top: 25px;
 }
