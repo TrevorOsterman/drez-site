@@ -26,17 +26,18 @@ a:hover {
 }
 
 .card {
+  flex: 0 0 auto;
   background-color: #f1e0c5;
   scroll-snap-align: center;
   color: #342a21;
-  width: 800px;
-  min-width: 80%;
+  width: 500px;
   margin: 0 10%;
 }
 
 .x-scroll {
   display: flex;
-  overflow-x: scroll;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   flex-direction: row;
   scroll-snap-type: x mandatory;
 }
