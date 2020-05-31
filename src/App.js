@@ -1,5 +1,4 @@
 import React from "react";
-import { Route } from "react-router-dom";
 import Services from "./Services/Services";
 import "./App.css";
 import Nav from "./Nav/Nav.js";
@@ -13,6 +12,11 @@ function App() {
       <div className="header">
         <Hero />
         <Nav />
+      </div>
+      <div className="x-scroll">
+        <About />
+        <Services />
+        <Contact />
       </div>
     </div>
   );

@@ -3,23 +3,17 @@
   flex-direction: column;
   justify-content: space-around;
   width: 100%;
-  align-items: center;
-  margin: auto;
+  align-items: flex-start;
   color: #f1e0c5;
-  padding: 5px;
-}
-
-.hero-info {
-  padding: 25px;
+  padding: 20px;
 }
 
 .hero-header {
-  font-size: 11vw;
+  font-size: 7vw;
   letter-spacing: -5px;
-  text-shadow: 5px -5px #da667b, 10px -10px #342a21;
 }
 
 .hero-byline {
   float: right;
-  text-shadow: 1px -1px #da667b, 2px -2px #342a21;
+  font-size: 15px;
 }
