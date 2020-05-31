@@ -1,10 +1,10 @@
 nav {
   display: flex;
-  flex-direction: row;
-  background-color: #f1e0c5;
+  flex-direction: column;
+  text-align: start;
 }
 
 nav > a {
-  padding: 10px 20px;
-  color: #342a21;
+  padding: 5px 10px;
+  color: #f1e0c5;
 }
