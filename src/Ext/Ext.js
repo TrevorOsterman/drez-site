@@ -2,5 +2,5 @@ import React from "react";
 import "./Ext.css";
 
 export default function Ext() {
-  return <div className="ext card"></div>;
+  return <div className="ext">r</div>;
 }
