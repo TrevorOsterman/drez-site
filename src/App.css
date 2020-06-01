@@ -26,7 +26,9 @@ a:hover {
 }
 
 .card {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   scroll-snap-align: center;
   background-color: rgba(0, 0, 0, 0.212);
   color: #f1e0c5;
@@ -36,8 +38,10 @@ a:hover {
 
 .x-scroll {
   width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
+  position: absolute;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
