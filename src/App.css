@@ -1,9 +1,11 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #71816d;
+  overflow: hidden;
 }
 
 a {
@@ -25,17 +27,16 @@ a:hover {
 
 .card {
   height: 100%;
-  width: 80vw;
   scroll-snap-align: center;
   background-color: rgba(0, 0, 0, 0.212);
   color: #f1e0c5;
+  min-width: 600px;
+  margin: 0 400px;
 }
 
 .x-scroll {
   width: 100vw;
-  height: 70vh;
-  max-height: 30rem;
-  margin: 3rem auto;
+  margin: 0 auto;
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
