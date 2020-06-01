@@ -45,3 +45,10 @@ a:hover {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
+
+.ext {
+  width: 0px;
+  height: 1px;
+  margin: 0;
+  background: transparent none;
+}

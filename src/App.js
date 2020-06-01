@@ -5,6 +5,7 @@ import Nav from "./Nav/Nav.js";
 import Hero from "./Hero/Hero.js";
 import About from "./About/About.js";
 import Contact from "./Contact/Contact";
+import Ext from "./Ext/Ext";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Services />
         <Contact />
+        <Ext />
       </div>
     </div>
   );
