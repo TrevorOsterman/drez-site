@@ -3,7 +3,7 @@ import "./Services.css";
 
 const Calendly = () => {
   return (
-    <div id="calendar" style={{ height: "800px" }}>
+    <div id="calendar" style={{ height: "50vh" }}>
       <iframe
         src="https://calendly.com/dresdenosterman"
         width="80%"

@@ -21,23 +21,22 @@ a:hover {
   font-family: "Playfair Display", serif;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
 }
 
 .card {
-  flex: 0 0 auto;
-  background-color: #f1e0c5;
+  height: 100%;
+  width: 80vw;
   scroll-snap-align: center;
-  color: #342a21;
-  width: 500px;
-  margin: 0 10%;
+  background-color: rgba(0, 0, 0, 0.212);
+  color: #f1e0c5;
 }
 
 .x-scroll {
+  width: 100vw;
+  height: 70vh;
+  max-height: 30rem;
+  margin: 3rem auto;
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  flex-direction: row;
+  overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
