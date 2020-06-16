@@ -1,11 +1,12 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import './Nav.css'
+import React from "react";
+import "./Nav.css";
 
-export default function Nav () {
-    return (<nav>
-        <Link to="/">Home</Link>
-        <Link to='/services'>Services & Booking</Link>
-        <Link to='/contact'>Contact</Link>
-    </nav>)
+export default function Nav() {
+  return (
+    <nav>
+      <a href="#about">Home</a>
+      <a href="#services">Services & Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  );
 }

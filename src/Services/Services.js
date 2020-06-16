@@ -16,7 +16,7 @@ const Calendly = () => {
 
 export default function Services() {
   return (
-    <div className="services card">
+    <div id="services" className="services card">
       <h1 className="comp-header">Services</h1>
       <Calendly />
     </div>
