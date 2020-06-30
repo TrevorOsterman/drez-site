@@ -6,6 +6,7 @@ import Hero from "./Hero/Hero.js";
 import About from "./About/About.js";
 import Contact from "./Contact/Contact";
 import Ext from "./Ext/Ext";
+import ForwardButton from "./ForwardButton/ForwardButton";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Services />
         <Contact />
         <Ext />
+        <ForwardButton />
       </div>
     </div>
   );
