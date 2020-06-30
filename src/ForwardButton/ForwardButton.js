@@ -6,7 +6,9 @@ export default function ForwardButton() {
     <button
       className="forward-button"
       style={{ height: `100px`, width: `100px` }}
-      onClick={console.log("this will move to next div")}
+      onClick={() => {
+        console.log(window.location.hash);
+      }}
     >
       >
     </button>
