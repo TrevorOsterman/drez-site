@@ -29,14 +29,16 @@ export default function XscrollButtons() {
         className="back-button"
         style={{ height: `100px`, width: `100px` }}
         onClick={() => {
-          if (!window.location.hash) {
-            window.location.hash = ``;
-          } else {
-            for (let i = 0; i < paths.length; i++) {
-              if (paths[i] === window.location.hash) {
-                console.log(paths[i++]);
-                window.location.hash = paths[i--];
-              }
+          for (let i = 0; i < paths.length; i++) {
+            if (
+              window.location.hash === paths[0] ||
+              window.location.hash === ``
+            ) {
+              break;
+            }
+            if (paths[i] === window.location.hash) {
+              window.location.hash = paths[i - 1];
+              break;
             }
           }
         }}
