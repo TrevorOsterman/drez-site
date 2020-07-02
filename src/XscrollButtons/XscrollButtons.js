@@ -8,19 +8,16 @@ export default function XscrollButtons() {
     <>
       <button
         className="forward-button"
-        style={{ height: `100px`, width: `100px` }}
         onClick={() => {
-          if (!window.location.hash) {
-            window.location.hash = paths[1];
-          } else {
-            for (let i = 0; i < paths.length; i++) {
-              if (
-                paths[i] === window.location.hash &&
-                paths[i] !== paths[paths.length - 1]
-              ) {
-                console.log(paths[i++]);
-                window.location.hash = paths[i++];
-              }
+          for (let i = 0; i < paths.length; i++) {
+            console.log(paths[i]);
+            console.log(window.location.hash);
+            if (
+              window.location.hash === paths[i] ||
+              window.location.hash === ""
+            ) {
+              window.location.hash = paths[i + 1];
+              break;
             }
           }
         }}
@@ -33,11 +30,12 @@ export default function XscrollButtons() {
         onClick={() => {
           if (!window.location.hash) {
             window.location.hash = ``;
-          }
-          for (let i = 0; i < paths.length; i++) {
-            if (paths[i] === window.location.hash) {
-              console.log(paths[i++]);
-              window.location.hash = paths[i--];
+          } else {
+            for (let i = 0; i < paths.length; i++) {
+              if (paths[i] === window.location.hash) {
+                console.log(paths[i++]);
+                window.location.hash = paths[i--];
+              }
             }
           }
         }}
