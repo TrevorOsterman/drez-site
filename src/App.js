@@ -16,11 +16,11 @@ function App() {
         <Nav />
       </div>
       <div className="x-scroll">
+        <XscrollButtons />
         <About />
         <Services />
         <Contact />
         <Ext />
-        <XscrollButtons />
       </div>
     </div>
   );
