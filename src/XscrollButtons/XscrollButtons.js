@@ -43,7 +43,7 @@ export default function XscrollButtons() {
           }
         }}
       >
-        fuck
+        &lt;
       </button>
     </>
   );
