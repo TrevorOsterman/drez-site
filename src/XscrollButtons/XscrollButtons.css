@@ -1,13 +1,25 @@
 .forward-button {
-  position: fixed;
-  margin-left: 75%;
-  margin-top: 25%;
-  height: 100px;
-  width: 100px;
+  right: 10px;
 }
 
 .back-button {
+  left: 10px;
+}
+
+.navbutton {
   position: fixed;
-  margin-right: 75%;
-  margin-top: 25%;
+  height: 75px;
+  width: 75px;
+  font-size: 25px;
+  top: 50%;
+  border-radius: 50%;
+  color: #f1e0c5;
+  background-color: transparent;
+  transition: background-color 1s ease;
+
+  border: none;
+}
+
+.navbutton:hover {
+  background-color: #0407031f;
 }

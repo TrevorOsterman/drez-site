@@ -7,7 +7,7 @@ export default function XscrollButtons() {
   return (
     <>
       <button
-        className="forward-button"
+        className="forward-button navbutton"
         onClick={() => {
           for (let i = 0; i < paths.length; i++) {
             if (window.location.hash === paths[paths.length - 1]) {
@@ -26,8 +26,7 @@ export default function XscrollButtons() {
         &gt;
       </button>
       <button
-        className="back-button"
-        style={{ height: `100px`, width: `100px` }}
+        className="back-button navbutton"
         onClick={() => {
           for (let i = 0; i < paths.length; i++) {
             if (
