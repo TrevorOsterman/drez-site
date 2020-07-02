@@ -10,6 +10,9 @@ export default function XscrollButtons() {
         className="forward-button"
         onClick={() => {
           for (let i = 0; i < paths.length; i++) {
+            if (window.location.hash === paths[paths.length - 1]) {
+              break;
+            }
             if (
               window.location.hash === paths[i] ||
               window.location.hash === ""
