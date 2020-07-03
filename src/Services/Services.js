@@ -27,7 +27,11 @@ export default function Services() {
 
   return (
     <div id="services" className="services card">
-      <h1 className="comp-header">Services</h1>
+      <h1 id="services-header">Services</h1>
+      <ul className="services-list">
+        <li>Reiki</li>
+        <li>Swedish Massage</li>
+      </ul>
       <a
         id="launch-calendly"
         onClick={() => {

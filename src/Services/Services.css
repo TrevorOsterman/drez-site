@@ -14,3 +14,17 @@
   padding: 10px;
   font-size: 20px;
 }
+
+#services-header {
+  font-size: 40px;
+}
+
+.services-list {
+  list-style: none;
+  padding: 2% 0;
+  font-size: 25px;
+}
+
+#launch-calendly {
+  font-size: 20px;
+}

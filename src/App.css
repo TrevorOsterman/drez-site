@@ -16,6 +16,7 @@ a {
 
 a:hover {
   color: #da667b;
+  cursor: pointer;
 }
 
 .App {
@@ -56,4 +57,12 @@ a:hover {
   height: 10px;
   background: rgba(0, 0, 0, 0);
   color: rgba(0, 0, 0, 0);
+}
+
+ul,
+li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
 }
