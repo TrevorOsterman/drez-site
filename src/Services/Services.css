@@ -1,3 +1,16 @@
-.services {
-  width: 1000px;
+#calendar {
+  display: flex;
+  align-content: flex-start;
+  height: 500px;
+  width: 800px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 4;
+}
+
+#close-button {
+  top: 0;
+  padding: 10px;
+  font-size: 20px;
 }

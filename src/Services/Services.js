@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Services.css";
 
-const Calendly = () => {
-  return (
-    <div id="calendar" style={{ height: "50vh" }}>
-      <iframe
-        src="https://calendly.com/dresdenosterman"
-        width="80%"
-        height="80%"
-        frameborder="0"
-      ></iframe>
-    </div>
-  );
-};
-
 export default function Services() {
+  const [calView, setCalView] = useState(false);
+
+  const Calendly = () => {
+    return (
+      <div id="calendar">
+        <iframe
+          src="https://calendly.com/dresdenosterman"
+          width="100%"
+          height="100%"
+          frameborder="0"
+        ></iframe>
+        <a
+          id="close-button"
+          onClick={() => {
+            setCalView(false);
+          }}
+        >
+          close
+        </a>
+      </div>
+    );
+  };
+
   return (
     <div id="services" className="services card">
       <h1 className="comp-header">Services</h1>
-      <Calendly />
+      <a
+        id="launch-calendly"
+        onClick={() => {
+          setCalView(true);
+        }}
+      >
+        Book Appointment
+      </a>
+      {calView && <Calendly />}
     </div>
   );
 }
