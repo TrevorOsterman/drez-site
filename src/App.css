@@ -29,6 +29,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-self: center;
+  justify-content: center;
   scroll-snap-align: center;
   background-color: rgba(0, 0, 0, 0.212);
   color: #f1e0c5;
@@ -44,8 +45,7 @@ a:hover {
   height: 100vh;
   margin: 0 auto;
   display: flex;
-  position: absolute;
-  z-index: -1;
+  position: fixed;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
