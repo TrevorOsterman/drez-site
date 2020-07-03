@@ -3,6 +3,7 @@ nav {
   position: absolute;
   flex-direction: column;
   text-align: start;
+  z-index: 2;
 }
 
 nav > a {
