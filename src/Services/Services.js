@@ -29,6 +29,7 @@ export default function Services() {
     <div id="services" className="services card">
       <h1 id="services-header">Services</h1>
       <ul className="services-list">
+        <li>Reflexology</li>
         <li>Reiki</li>
         <li>Swedish Massage</li>
       </ul>
