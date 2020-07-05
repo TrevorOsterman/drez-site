@@ -8,7 +8,7 @@ nav {
 
 nav > a {
   padding: 2px 20px;
-  color: #342a21;
+  color: var(--light-tan);
   font-size: 17px;
 }
 

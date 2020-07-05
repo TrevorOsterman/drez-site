@@ -4,9 +4,9 @@
 }
 
 body {
-  background: url(./Images/IMG_1532.jpeg);
+  background: url(./Images/IMG_1508e.jpg);
   background-size: cover;
-  background-position: 50% 5%;
+  background-position: 50% 0%;
   overflow: hidden;
   --pink: #da667b;
   --green: #71816d;
@@ -39,7 +39,7 @@ a:hover {
   align-self: center;
   justify-content: center;
   scroll-snap-align: center;
-  background-color: rgba(0, 0, 0, 0.212);
+  background-color: rgba(0, 0, 0, 0.61);
   color: #f1e0c5;
   min-width: 600px;
   height: 324px;
