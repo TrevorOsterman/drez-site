@@ -4,7 +4,7 @@
   justify-content: space-around;
   width: 100%;
   align-items: flex-start;
-  color: #f1e0c5;
+  color: var(--dark-tan);
   padding: 20px;
   z-index: -1;
 }

@@ -8,10 +8,10 @@ nav {
 
 nav > a {
   padding: 2px 20px;
-  color: #f1e0c5;
+  color: #342a21;
   font-size: 17px;
 }
 
 nav > a:hover {
-  color: purple;
+  color: #da667b;
 }
